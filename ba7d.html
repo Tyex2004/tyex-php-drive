@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+
+<!-- Mirrored from localhost:8000/.?dir=hts-cache by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Aug 2024 09:14:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta charset="utf-8">
+<meta name="description" content="Yet another directory listing, powered by Directory Lister.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" href="app/assets/images/favicon.lightc958.png?id=4be061744d10326a8783a915eda6873c">
+<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/">
+<link rel="stylesheet" href="app/assets/app8129.css?id=628494db48489c50065aeb9963b5b8f8">
+
+<link x-data rel="stylesheet" href="app/assets/hljs-githubc730.css?id=5b3b84d44fb8d35090b41bca7651f6f4" :disabled="$store.theme !== 'light'">
+<link x-data rel="stylesheet" href="app/assets/hljs-github-dark.html" :disabled="$store.theme !== 'dark'">
+
+<script src="app/assets/appc3b3.js?id=253eb65724e33a0b3651a068f4b135f3" defer></script>
+
+
+
+<title>hts-cache &bull; Directory Lister</title>
+
+<div class="light" x-data="application" x-effect="storeThemeCookie($store.theme)" :class="{ 'dark': $store.theme === 'dark' }">
+    <div class="flex flex-col min-h-screen font-sans dark:bg-gray-800">
+            <header class="bg-blue-600 shadow sticky top-0 dark:bg-purple-700">
+    <div class="border-b border-blue-700 dark:border-purple-800">
+        <div class="container flex flex-wrap justify-between items-center space-x-6 mx-auto p-4 md:flex-row xl:max-w-screen-xl">
+            <a href=".html" class="flex items-center space-x-2 p-1" title="Directory Lister">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="folder-tree" class="inline-block fill-current text-white w-8 h-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path fill="currentColor" d="M544 32H432L400 0h-80a32 32 0 0 0-32 32v160a32 32 0 0 0 32 32h224a32 32 0 0 0 32-32V64a32 32 0 0 0-32-32zm0 288H432l-32-32h-80a32 32 0 0 0-32 32v160a32 32 0 0 0 32 32h224a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32zM64 16A16 16 0 0 0 48 0H16A16 16 0 0 0 0 16v400a32 32 0 0 0 32 32h224v-64H64V160h192V96H64z"></path>
+                </svg>
+            </a>
+
+            <div class="flex-1 max-w-xl">
+                <form action="http://localhost:8000/." method="get" class="group relative block bg-blue-700 rounded-full shadow-inner dark:bg-purple-800">
+    <input type="text" value="" name="search" placeholder="搜索..."
+        class="bg-transparent placeholder-gray-900 text-white w-full px-10 py-2"
+        @keyup.?.prevent.window="$el.focus()" @focus="$event.target.select()"
+    >
+
+    <div class="flex items-center absolute left-0 inset-y-0 ml-2 pointer-events-none">
+        <div class="flex justify-center items-center text-gray-900 text-opacity-50 w-6 h-6">
+            <i class="fas fa-search fa-fw"></i>
+        </div>
+    </div>
+
+    </form>
+            </div>
+
+            <div class="flex items-center justify-center w-6">
+                <div class="flex flex-col justify-center items-center bg-gray-900 bg-opacity-30 rounded-full cursor-pointer w-4 h-8" title="切换亮/暗模式" @click="toggleTheme()">
+    <div class="flex justify-center items-center bg-white w-5 h-5 rounded-full shadow-md duration-300 ease-in-out -translate-y-2 dark:translate-y-2">
+        <i class="fas fa-lightbulb fa-xs text-yellow-400 dark:text-gray-600"></i>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="border-t border-blue-500 dark:border-purple-600">
+        <div class="container flex flex-wrap justify-between items-center space-x-6 mx-auto px-4 py-1 md:flex-row xl:max-w-screen-xl">
+            <div class="flex-1 font-mono text-white text-sm tracking-tight overflow-x-auto whitespace-nowrap py-1">
+    <a href=".html" class="inline-block hover:underline">
+        目录起始页
+    </a>
+
+                        / <a href="ba7d.html?dir=hts-cache" class="inline-block hover:underline">hts-cache</a>
+            </div>
+
+                    </div>
+    </div>
+</header>
+
+    <div class="flex flex-col flex-grow container mx-auto px-4 xl:max-w-screen-xl dark:text-white">
+        <div class="my-4">
+            <div class="flex justify-between font-bold p-4">
+                <div class="flex-grow font-mono mr-2">
+                    文件名
+                </div>
+
+                <div class="font-mono text-right w-1/6 mx-2 hidden sm:block">
+                    大小
+                </div>
+
+                <div class="font-mono text-right w-1/4 ml-2 hidden sm:block">
+                    日期
+                </div>
+            </div>
+
+            <ul>
+                <li>
+                                            <a
+    href=".html"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-100 hover:shadow dark:hover:bg-purple-700"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-level-up-alt fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            ..
+        </div>
+
+        
+        <div class="hidden whitespace-nowrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-nowrap text-right truncate ml-2 w-1/4 sm:block">
+            —
+        </div>
+    </div>
+</a>
+
+                                    </li>
+
+                <li>
+                                    </li>
+            </ul>
+        </div>
+
+            </div>
+
+    <footer class="container border-t-2 border-gray-800 text-center mx-auto px-4 py-8 xl:max-w-screen-xl dark:text-white dark:border-white">
+    <div class="flex flex-col justify-center items-center">
+        <p class="mb-4">
+            基于 <a href="https://www.directorylister.com/" class="underline hover:text-blue-700 dark:hover:text-purple-700">Directory Lister</a>
+        </p>
+
+        <div class="flex">
+            <a href="https://github.com/DirectoryLister/DirectoryLister" title="GitHub" class="text-gray-400 mx-2 hover:text-github">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+
+            <a href="https://twitter.com/DirectoryLister" title="Twitter" class="text-gray-400 mx-2 hover:text-twitter">
+                <i class="fab fa-twitter fa-lg"></i>
+            </a>
+
+            <a href="https://github.com/DirectoryLister/DirectoryLister/discussions" title="Discussions" class="text-gray-400 mx-2 hover:text-purple-600">
+                <i class="fas fa-comments fa-lg"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <div class="fixed bottom-0 left-0 right-0 pointer-events-none" x-data="{ visible: false }"
+    x-init="visible = window.scrollY > 10" x-show="visible" x-transition.opacity
+>
+    <div class="container flex justify-end mx-auto px-4 py-10 xl:max-w-screen-xl">
+        <button title="回到顶部" class="flex justify-center items-center w-12 h-12 right-0 rounded-full shadow-lg bg-blue-600 text-white cursor-pointer pointer-events-auto hover:bg-blue-700 dark:bg-purple-700 dark:hover:bg-purple-800"
+            @click="window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });" @scroll.window="visible = window.scrollY > 10"
+        >
+            <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+    </div>
+</div>
+
+    <div class="fixed inset-0 flex justify-center items-center bg-gray-800 bg-opacity-50 p-4 z-50 dark:bg-gray-600 dark:bg-opacity-50"
+    x-data="fileInfoModal" x-show="visible" @click.self="hide()" @keyup.escape.window="hide()"
+    @show-file-info.window="show($event.detail.file)" x-transition:enter.opacity x-cloak
+>
+    <div x-show="!loading" x-transition:enter @click.away="hide()" class="bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-800 dark:text-white">
+        <header class="flex justify-between items-center bg-blue-600 p-4 dark:bg-purple-700">
+            <i class="fas fa-info-circle fa-lg text-white"></i>
+
+            <div class="items-center text-xl text-white font-mono mx-4" x-text="title"></div>
+
+            <button @click="hide()" class="flex justify-center items-center rounded-full w-6 h-6 text-gray-900 text-opacity-50 text-sm hover:bg-red-700 hover:text-white hover:shadow">
+                <i class="fas fa-times"></i>
+            </button>
+        </header>
+
+        <content class="flex justify-center items-center p-4">
+            <div class="overflow-x-auto">
+                <p class="font-thin text-2xl text-gray-600 m-4" x-if="error" x-text="error"></p>
+
+                <table x-if="error === undefined" class="table-auto">
+                    <tbody>
+                        <template x-for="[name, value] in Object.entries(hashes)" :key="name">
+                            <tr>
+                                <td class="border font-bold px-4 py-2" x-text="name"></td>
+                                <td class="border font-mono px-4 py-2" x-text="value"></td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+        </content>
+    </div>
+
+    <i class="fas fa-spinner fa-pulse fa-5x text-white" x-show="loading"></i>
+</div>
+    </div>
+</div>
